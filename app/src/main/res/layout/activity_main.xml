@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInputan"
+        android:text="Enter Number Here"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/btnSatu"
+        android:layout_below="@+id/txtInputan"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/btnDua"
+        android:layout_below="@+id/txtInputan"
+        android:layout_toRightOf="@+id/btnSatu"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/btnTiga"
+        android:layout_below="@+id/txtInputan"
+        android:layout_toRightOf="@id/btnDua"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/btnEmpat"
+        android:layout_below="@id/txtInputan"
+        android:layout_toRightOf="@id/btnTiga"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/btnLima"
+        android:layout_below="@+id/btnSatu"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/btnEnam"
+        android:layout_below="@+id/btnSatu"
+        android:layout_toRightOf="@+id/btnLima"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/btnTujuh"
+        android:layout_below="@+id/btnSatu"
+        android:layout_toRightOf="@id/btnEnam"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/btnDelapan"
+        android:layout_below="@id/btnSatu"
+        android:layout_toRightOf="@id/btnTujuh"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/btnSembilan"
+        android:layout_below="@+id/btnLima"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/btnNol"
+        android:layout_below="@id/btnLima"
+        android:layout_toRightOf="@id/btnSembilan"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/btnTambah"
+        android:layout_below="@+id/btnSembilan"
+        android:layout_alignParentLeft="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/btnKurang"
+        android:layout_below="@+id/btnSembilan"
+        android:layout_toRightOf="@+id/btnTambah"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/btnKali"
+        android:layout_below="@+id/btnSembilan"
+        android:layout_toRightOf="@id/btnKurang"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/btnBagi"
+        android:layout_below="@id/btnSembilan"
+        android:layout_toRightOf="@id/btnKali"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/btnEqual"
+        android:layout_below="@+id/btnTambah"
+        android:layout_alignParentLeft="true"/>
+
+</RelativeLayout>
